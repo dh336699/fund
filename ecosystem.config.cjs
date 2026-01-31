@@ -1,8 +1,8 @@
 module.exports = {
   apps: [
     {
-      name: 'fundcalc',
-      cwd: '/var/www/fundcalc',
+      name: 'fund',
+      cwd: '/var/www/fund',
       script: 'node_modules/next/dist/bin/next',
       args: 'start -p 6005',
       env: {
